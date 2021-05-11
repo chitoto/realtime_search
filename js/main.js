@@ -1,3 +1,17 @@
 var app = new Vue({
-    el: '#app'
+    el: '#app',
+    data: {
+      items: null,
+      keyword: '',
+      message: ''
+    },
+    watch: {
+
+    },
+    created: function() {
+
+    },
+    methods: {
+
+    }
 })
