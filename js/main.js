@@ -20,6 +20,7 @@ var app = new Vue({
       getAnswer: function() {
         if(this.keyword === '') {
           this.items = null
+          this.message = ""
           return
         }
         this.message = 'Loading...'
